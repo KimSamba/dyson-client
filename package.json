@@ -1,0 +1,29 @@
+{
+  "name": "dyson-client",
+  "version": "1.0.0",
+  "description": "",
+  "main": "build/src/index.js",
+  "scripts": {
+    "test": "jest",
+    "compile": "tsc",
+    "fix": "gts fix",
+    "dev": "ts-node-dev src/index.ts",
+    "prepare": "npm run compile"
+  },
+  "keywords": [],
+  "author": "Kim Samba",
+  "license": "ISC",
+  "dependencies": {
+    "dyson-purelink": "^1.0.0"
+  },
+  "devDependencies": {
+    "@types/jest": "^25.2.1",
+    "@types/node": "^10.0.3",
+    "debug": "^4.1.1",
+    "gts": "^2.0.0",
+    "jest": "^26.0.1",
+    "ts-jest": "^25.5.0",
+    "ts-node-dev": "^1.0.0-pre.44",
+    "typescript": "~3.8.0"
+  }
+}
